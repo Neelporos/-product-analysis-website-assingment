@@ -6,6 +6,7 @@ import Error from './component/Error/Error';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Reviews from './component/Reviews/Reviews';
+import SellChart from './component/SellChart/SellChart';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Blog' element={<Blog></Blog>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
+      <SellChart></SellChart>
     </div>
   );
 }
