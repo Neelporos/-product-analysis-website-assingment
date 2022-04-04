@@ -2,6 +2,7 @@ import React from 'react';
 import { Line, LineChart } from 'recharts';
 
 const SellChart = () => {
+
     const data = [
         {
             "month": "Mar",
@@ -40,12 +41,11 @@ const SellChart = () => {
             "revenue": 61000
         }
     ]
+
     return (
-        <div>
-            <LineChart width={500} height={400} data={data}>
-                <Line dataKey={'month'}></Line>
-            </LineChart>
-        </div>
+        <LineChart width={500} height={600} data={data}>
+            <Line dataKey={'month'}></Line>
+        </LineChart>
     );
 };
 
