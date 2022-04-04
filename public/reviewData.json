@@ -1,38 +1,44 @@
 [
     {
         "_id": "6249fef1ffb97ee5462fd748",
-        "picture": "http://placehold.it/32x32",
+        "picture": "picture/alex-suprun-ZHvM3XIOHoE-unsplash.jpg",
         "name": "Saundra Horton",
-        "review": "Laboris qui aliquip incididunt dolore sunt nisi excepteur ea adipisicing mollit tempor. Fugiat deserunt veniam eu qui pariatur eu elit dolor labore cillum in tempor. Sunt deserunt consequat consequat nulla Lorem amet occaecat id commodo enim fugiat duis cillum.\r\n"
+        "review": "Laboris qui aliquip incididunt dolore sunt nisi excepteur ea adipisicing mollit tempor. Fugiat deserunt veniam eu qui pariatur eu elit dolor labore cillum in tempor. Sunt deserunt consequat consequat nulla Lorem amet occaecat id commodo enim fugiat duis cillum.\r\n",
+        "ratting": 5
     },
     {
         "_id": "6249fef1a385e22ec2cd0a70",
-        "picture": "http://placehold.it/32x32",
+        "picture": "picture/christopher-campbell-rDEOVtE7vOs-unsplash.jpg",
         "name": "Lula Molina",
-        "review": "Anim non nostrud cillum commodo excepteur dolore nisi sunt ullamco ut commodo eiusmod. Laborum mollit laboris quis excepteur veniam pariatur esse consectetur laboris sit cillum. Laboris sint fugiat proident et ullamco ullamco ut velit pariatur. Aliquip cupidatat occaecat esse id aute ea aliquip esse magna enim aliquip cupidatat esse sunt.\r\n"
+        "review": "Anim non nostrud cillum commodo excepteur dolore nisi sunt ullamco ut commodo eiusmod. Laborum mollit laboris quis excepteur veniam pariatur esse consectetur laboris sit cillum. Laboris sint fugiat proident et ullamco ullamco ut velit pariatur. Aliquip cupidatat occaecat esse id aute ea aliquip esse magna enim aliquip cupidatat esse sunt.\r\n",
+        "ratting": 4.5
     },
     {
         "_id": "6249fef1f02ffc88c304e87a",
-        "picture": "http://placehold.it/32x32",
+        "picture": "picture/edward-cisneros-_H6wpor9mjs-unsplash.jpg",
         "name": "Jannie Snyder",
-        "review": "Tempor nisi nisi amet qui consectetur pariatur sint nisi voluptate ipsum dolore proident. Dolor ea fugiat ullamco commodo magna in do sit occaecat. Occaecat aliquip non laboris mollit minim eiusmod ex et elit pariatur. Excepteur do laborum enim anim ea non mollit consequat commodo Lorem labore sit. Nostrud adipisicing ex eiusmod voluptate nisi nulla occaecat tempor ut. Fugiat quis anim enim aute dolor occaecat incididunt nulla reprehenderit nostrud sunt quis aute.\r\n"
+        "review": "Tempor nisi nisi amet qui consectetur pariatur sint nisi voluptate ipsum dolore proident. Dolor ea fugiat ullamco commodo magna in do sit occaecat. Occaecat aliquip non laboris mollit minim eiusmod ex et elit pariatur. Excepteur do laborum enim anim ea non mollit consequat commodo Lorem labore sit. Nostrud adipisicing ex eiusmod voluptate nisi nulla occaecat tempor ut. Fugiat quis anim enim aute dolor occaecat incididunt nulla reprehenderit nostrud sunt quis aute.\r\n",
+        "ratting": 4
     },
     {
         "_id": "6249fef14e12bc68058753a4",
-        "picture": "http://placehold.it/32x32",
+        "picture": "picture/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg",
         "name": "Hannah Oneal",
-        "review": "Consequat exercitation velit ad consequat excepteur eiusmod proident deserunt. Ex non deserunt ut sint ea Lorem sint occaecat officia aliqua. Ad velit ad commodo excepteur amet elit.\r\n"
+        "review": "Consequat exercitation velit ad consequat excepteur eiusmod proident deserunt. Ex non deserunt ut sint ea Lorem sint occaecat officia aliqua. Ad velit ad commodo excepteur amet elit.\r\n",
+        "ratting": 5
     },
     {
         "_id": "6249fef156927894df4b88c6",
-        "picture": "http://placehold.it/32x32",
+        "picture": "picture/michael-dam-mEZ3PoFGs_k-unsplash.jpg",
         "name": "Cook Carver",
-        "review": "Proident aliquip tempor duis Lorem nisi ad. Pariatur reprehenderit laborum aliquip quis commodo laboris deserunt. Ad ullamco voluptate ea dolor excepteur. Labore aliquip Lorem amet eiusmod. Excepteur eu ad veniam proident quis velit consequat. Pariatur id sint ad laboris aliqua ullamco nostrud laborum commodo mollit labore nulla ea velit.\r\n"
+        "review": "Proident aliquip tempor duis Lorem nisi ad. Pariatur reprehenderit laborum aliquip quis commodo laboris deserunt. Ad ullamco voluptate ea dolor excepteur. Labore aliquip Lorem amet eiusmod. Excepteur eu ad veniam proident quis velit consequat. Pariatur id sint ad laboris aliqua ullamco nostrud laborum commodo mollit labore nulla ea velit.\r\n",
+        "ratting": 4.5
     },
     {
         "_id": "6249fef1005c88cb680ef77c",
-        "picture": "http://placehold.it/32x32",
+        "picture": "picture/pexels-pixabay-220453.jpg",
         "name": "Jacqueline Flowers",
-        "review": "Veniam nulla do nisi in est ad. Minim cillum aliqua velit esse ipsum laboris velit. Quis eu in quis et culpa proident Lorem sunt culpa duis est velit sunt velit. Esse occaecat excepteur minim do tempor cillum excepteur aliquip excepteur. Aute id cupidatat adipisicing laboris laboris labore. Nostrud sint labore ipsum dolore ea sit.\r\n"
+        "review": "Veniam nulla do nisi in est ad. Minim cillum aliqua velit esse ipsum laboris velit. Quis eu in quis et culpa proident Lorem sunt culpa duis est velit sunt velit. Esse occaecat excepteur minim do tempor cillum excepteur aliquip excepteur. Aute id cupidatat adipisicing laboris laboris labore. Nostrud sint labore ipsum dolore ea sit.\r\n",
+        "ratting": 4
     }
 ]
