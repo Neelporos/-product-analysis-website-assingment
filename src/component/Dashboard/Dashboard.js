@@ -43,7 +43,7 @@ const Dashboard = () => {
     ]
 
     return (
-        <div className='flex justify-center gap-10'>
+        <div className=' grid grid-cols-1 md:grid-cols-2 justify-items-center'>
             <LineChart width={400} height={250} data={data}>
                 <Line type="monotone" dataKey="investment" stroke="#8884d8" />
                 <Line type="monotone" dataKey="sell" stroke="#8884d8" />
