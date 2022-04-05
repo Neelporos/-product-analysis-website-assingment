@@ -18,7 +18,6 @@ function App() {
         <Route path='/Blog' element={<Blog></Blog>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
-
     </div>
   );
 }

@@ -43,7 +43,7 @@ const Home = () => {
                 </div>
 
                 <div className='grid place-items-center'>
-                    <button className='mb-20 mt-5 border-2 p-2 bg-white text-black hover:bg-black hover:text-stone-50'><Link to={'/Reviews'}>See More Reviews</Link></button>
+                    <button className='font-bold mb-20 mt-5 border-2 p-2 bg-white text-black hover:bg-black hover:text-stone-50'><Link to={'/Reviews'}>See More Reviews</Link></button>
                 </div>
             </div>
 
