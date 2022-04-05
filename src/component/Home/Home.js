@@ -1,8 +1,14 @@
 import React from 'react';
-import ReviewCart from '../ReviewCart/ReviewCart';
-import Reviews from '../Reviews/Reviews';
+import { Link } from 'react-router-dom';
+import useReviews from '../../hooks/reviews';
+import HomeReviews from '../HomeReviews/HomeReviews';
 
 const Home = () => {
+
+    const [reviews, setReviews] = useReviews();
+
+    const homeReview = reviews.slice(0, 3);
+
     return (
         <div>
             <div className='grid grid-cols-2' >
@@ -17,7 +23,7 @@ const Home = () => {
                         we offer start-to finish solutions for every project.
                         no need to hire multiple companies or sub just bring us in
                         and let us give you free one stop shop experience.</p>
-                    <button className='mt-6 border-2 p-4 bg-white text-black hover:bg-black hover:text-stone-50  '>Explore More</button>
+                    <button className='mt-6 border-2 p-4 bg-white text-black hover:bg-black hover:text-stone-50 font-bold '>Call Now: 866-436-2012</button>
                 </div>
                 <div>
                     <img className='mx-auto ' src='https://thumbs.dreamstime.com/b/multitasking-concept-handyman-different-tools-white-background-180022890.jpg' alt="" />
@@ -26,8 +32,18 @@ const Home = () => {
 
             <div>
                 <h2 className='text-4xl font-bold text-center m-10'>Customer Review</h2>
+
+                <div className='px-20 py-5 mx-auto max-w-7xl'>
+                    <div className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5 '>
+                        {
+                            homeReview.map(review => <HomeReviews key={review._id} review={review}></HomeReviews>)
+                        }
+                    </div>
+
+                </div>
+
                 <div className='grid place-items-center'>
-                    <button className='rounded-lg border-2 p-2 bg-white text-black hover:bg-black hover:text-stone-50  '>See More Reviews</button>
+                    <button className='mb-20 mt-5 border-2 p-2 bg-white text-black hover:bg-black hover:text-stone-50'><Link to={'/Reviews'}>See More Reviews</Link></button>
                 </div>
             </div>
 
@@ -38,3 +54,7 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+
